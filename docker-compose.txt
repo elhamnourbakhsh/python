@@ -1,0 +1,8 @@
+version: '3.7'
+services:
+   flaskapp:
+      image: flask
+      ports:
+        - 8800:105
+      volumes:
+        - ".:/app"
